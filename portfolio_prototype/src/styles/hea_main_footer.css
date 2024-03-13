@@ -14,14 +14,16 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(#0a0a0a, #34d80bbe);
+    background: linear-gradient(#249e05be,#0a0a0a);
     flex-direction: column;
 }
 
 .my-header{
+    display: flex;
     width: 100%;
     margin: 12px;
     padding: 0;
+    justify-content: center;
 }
 
 .my-header-menu{
@@ -29,14 +31,20 @@ body {
     gap: 80px;
     margin: 20px;
     padding: auto;
+    justify-content: center;
 }
 
 .link-header{
+    background-color: #066a122a;
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--secundary-color);
+    color: var(--primary-color);
     text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+
 }
 
 .sobre-mim{
@@ -129,7 +137,7 @@ body {
     margin-right: 200px;
 }
 
-.my-footer{
+/* .my-footer{
     align-items: center;
     padding: 8px;
     margin: 12px;
@@ -144,7 +152,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 400;
-}
+} */
 
 .download-cv{
     margin: 8px;
@@ -165,21 +173,83 @@ body {
 @media (max-width:1200px){
 
     .my-header{
-        padding: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
     .my-header-menu{
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
-    
+
+    .porfile{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .principal-image{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 235px
+    }
+
     .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .sobre-mim > *{
+        margin-bottom: 25px;
+    }
+
+    .wellcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column-reverse;
-        padding: 7%;
+        max-width: max-content;
+        margin: 75px;
+        padding-bottom: 200px;
+    }
+
+    .apresentacao{
+        margin: 0;
+        width: 320px;        
+    }
+
+    .side-acess{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .boas-vindas{
+        font-size: 1.5rem;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        margin-bottom: 12px;
     }
 
     .my-resume{
         width: auto;
         color: white
+    }
+
+    .my-links{
+        margin: 0;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

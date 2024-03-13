@@ -7,7 +7,7 @@
 }
 
 .apresentacao-sobre-mim{
-    margin-top: 230px;
+    margin-top: 300px;
     display: flex;
 }
 
@@ -25,4 +25,62 @@
     color: white;
     text-align: justify;
     line-height: 1.5;
+}
+
+.curriculo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.download-cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-cv:hover{
+    color: var(--primary-color);
+    background-color: var(--secundary-color);
+}
+
+
+/*RESPONSIVIDADE -- Utilizando Media Queries*/ 
+
+@media (max-width:1200px){
+
+    .apresentacao-sobre-mim{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-apresentacao{
+        margin: 0;
+        width: 320px; 
+    }
+
+    .sobre-eu{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 320px; 
+    }
+
+    .my-resume-carrer{
+        margin: 50px 0 0 0;
+    }
+
+    .curriculo{
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .download-cv{
+        margin: 0;
+    }
+
 }

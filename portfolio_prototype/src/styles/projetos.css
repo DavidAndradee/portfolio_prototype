@@ -8,15 +8,23 @@
 }
 
 .projects{
-    margin-top: 250px;
+    margin-top: 300px;
     display: column;
 }
 
 .my-projects{
+    display: flex;
     font-family: var(--font-principal);
     color: white;
-    margin-left: 25px;
-    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    margin: 55px;    
+}
+
+.my-projects > *{
+    margin-bottom: 20px;
 }
 
 .aplicacoes{
@@ -44,7 +52,6 @@
 }
 
 .descricao{
-    background-color: black;
     border-radius: 25px;
     max-width: 1200px;
     display: column;
@@ -71,3 +78,65 @@
     justify-content: center;
     margin: 12px;
 }
+
+/*RESPONSIVIDADE -- Utilizando Media Queries*/ 
+
+@media (max-width:1200px){
+
+    .projects{
+        display: flex;
+        margin: 50px 0 0 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .my-projects{
+        margin: 25px 0 0 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gif{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px
+    }
+
+    .encriptador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .numero-secreto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-project{
+        width: 150px;
+    }
+
+    .descricao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botoes{
+        margin: 35px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
