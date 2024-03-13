@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-principal: "Montserrat", sans-serif;
+    --primary-color: #000;
+    --secundary-color: #00ff00ea;
+    --terciary-color: rgba(255, 255, 255, 0.5);
+}
+
+.projects{
+    margin-top: 250px;
+    display: column;
+}
+
+.my-projects{
+    font-family: var(--font-principal);
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.aplicacoes{
+    align-items: center;
+}
+
+.encriptador{
+    display: flex;
+    margin: 35px;
+    width: 250px;
+    align-items: center;
+}
+
+.numero-secreto{
+    display: flex;
+    margin: 35px;
+    width: 250px;
+    align-items: center;
+}
+
+.gif{
+    margin: 35px;
+    width: 1000px;
+    border-radius: 12px;
+}
+
+.descricao{
+    background-color: black;
+    border-radius: 25px;
+    max-width: 1200px;
+    display: column;
+    margin: 50px;
+    color: white;
+    font-family: var(--font-principal);
+}
+
+.descricao p{
+    width: 320px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-project{
+    display: flex;
+    padding: 10px;
+    background-color: var(--secundary-color);
+    border-radius: 12px;
+    border: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    justify-content: center;
+    margin: 12px;
+}
