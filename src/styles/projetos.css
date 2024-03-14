@@ -98,25 +98,32 @@
 
     .projects{
         display: flex;
-        margin: 50px 0 0 0;
+        margin: 0;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
     .my-projects{
-        margin: 25px 0 0 0;
+        margin: 25px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .aplicacoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
     }
 
     .gif{
         margin: 0;
         display: flex;
         justify-content: center;
-        align-items: center;
-        width: 350px
+        width: 300px
     }
 
     .encriptador{
@@ -142,6 +149,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        margin-top: 20px;
+        line-height: 1.5;
+        word-spacing: normal;
     }
 
     .botoes{
