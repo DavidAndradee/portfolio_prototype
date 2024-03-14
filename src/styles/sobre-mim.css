@@ -40,7 +40,7 @@
     align-items: center;
     flex-direction: column;
 }
-
+/* 
 .curriculo{
     display: flex;
     text-decoration: none;
@@ -65,7 +65,7 @@
 .curriculo:hover{
     color: var(--primary-color);
     background-color: var(--secundary-color);
-}
+} */
 
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
@@ -102,6 +102,31 @@
     .curriculo{
         margin: 0;
         display: flex;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.311);
+        color: var(--primary-color);
+        border-radius: 20px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        cursor: pointer;
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conexao{
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        color: var(--secundary-color);
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .icon-download{
+        width: 25px;
+        margin-right: 7px;
     }
 
 }
