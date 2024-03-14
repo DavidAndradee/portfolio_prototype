@@ -46,7 +46,7 @@
 }
 
 .gif{
-    margin: 35px 55px 55px 55px;
+    margin: 35px;
     width: 1000px;
     border-radius: 12px;
     border: 5px groove #0c0c0c8f;
@@ -55,12 +55,10 @@
 .descricao{
     border-radius: 25px;
     max-width: 1200px;
-    display: column;
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
     color: white;
     font-family: var(--font-principal);
-    margin-left: 100px;
-    margin-right: 200px;
 }
 
 .descricao p{
