@@ -31,13 +31,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .download-cv{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .download-cv:hover{
