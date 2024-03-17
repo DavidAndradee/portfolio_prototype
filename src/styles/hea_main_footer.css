@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(#2bc10588,#0a0a0a);
+    background-color: #000;
     flex-direction: column;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .link-header{
-    background-color: #066a122a;
+    background-color: #0fee2975;
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
@@ -129,6 +129,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.icon:hover{
+    background-color: var(--secundary-color);
 }
 
 .principal-image{

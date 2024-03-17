@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --primary-color: #000;
+    --primary-color: black;
     --secundary-color: #00ff00b9;
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
@@ -44,9 +44,9 @@
 .curriculo{
     display: flex;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.311);
+    background-color: rgba(14, 242, 10, 0.53);
     color: var(--primary-color);
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     border: none;
@@ -103,9 +103,9 @@
         margin: 0;
         display: flex;
         text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.311);
+        background-color: rgba(14, 242, 10, 0.53);
         color: var(--primary-color);
-        border-radius: 20px;
+        border-radius: 30px;
         font-weight: 700;
         font-family: "Montserrat", sans-serif;
         border: none;
