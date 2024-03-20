@@ -39,7 +39,7 @@
     padding: 0;
 }
 
-.numero-secreto{
+.numero-secreto, .henrrique-page{
     display: flex;
     margin: 35px;
     width: 100%;
@@ -50,7 +50,7 @@
     margin: 35px;
     width: 1000px;
     border-radius: 12px;
-    border: 5px groove #0c0c0c8f;
+    border: 5px groove rgba(0, 128, 0, 0.521);
 }
 
 .descricao{
