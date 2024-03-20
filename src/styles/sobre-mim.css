@@ -34,7 +34,7 @@
 }
 
 .background-image{
-    background-image: url('src/assets/folhas.png');
+    background-image: url('/src/assets/folhas.png');
     background-size: cover;
 }
 
