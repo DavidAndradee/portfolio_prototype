@@ -33,6 +33,11 @@
     word-wrap: break-word;
 }
 
+.background-image{
+    background-image: url('/src/assets/folhas.png');
+    background-size: cover;
+}
+
 .baixar-curriculo{
     margin: 90px;
     display: flex;
@@ -44,10 +49,11 @@
 .curriculo{
     display: flex;
     text-decoration: none;
-    background-color: rgba(14, 242, 10, 0.53);
+    background-color: rgba(4, 255, 0, 0.811);
     color: var(--primary-color);
     border-radius: 30px;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: larger;
     font-family: "Montserrat", sans-serif;
     border: none;
     cursor: pointer;
@@ -103,7 +109,7 @@
         margin: 0;
         display: flex;
         text-decoration: none;
-        background-color: rgba(14, 242, 10, 0.53);
+        background-color: rgba(4, 255, 0, 0.829);
         color: var(--primary-color);
         border-radius: 30px;
         font-weight: 700;
