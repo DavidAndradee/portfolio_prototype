@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 :root{
     --font-principal: "Montserrat", sans-serif;
@@ -27,35 +28,38 @@
     margin-bottom: 20px;
 }
 
+.my-projects h1{
+    font-family: "Orbitron", sans-serif;
+    font-size:xx-large ;
+    background: linear-gradient(to right, white, #0dff00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
 .aplicacoes{
     align-items: center;
 }
 
-.encriptador{
+.projeto{
     display: flex;
     margin: 35px;
-    width: 100%;
     align-items: center;
+    justify-content: center;
     padding: 0;
-}
-
-.numero-secreto, .henrrique-page{
-    display: flex;
-    margin: 35px;
-    width: 100%;
-    align-items: center;
+    border-radius: 12px;
+    border: 1px groove rgba(0, 255, 0, 0.148);
 }
 
 .gif{
     margin: 35px;
     width: 1000px;
     border-radius: 12px;
-    border: 5px groove rgba(0, 128, 0, 0.521);
+    border: 5px groove rgba(0, 255, 0, 0.521);
 }
 
 .descricao{
     border-radius: 25px;
-    width: 100%;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +75,7 @@
     align-items: center;
     line-height: 1.5;
     word-spacing: normal;
+    margin: 10px;
 }
 
 .btn-project{
@@ -88,7 +93,7 @@
 }
 
 .btn-project:hover{
-    background-color: #00000045;
+    background-color: #ffffff35;
     color: white;
 }
 
@@ -111,6 +116,10 @@
         align-items: center;
     }
 
+    .my-projects h1{
+        font-size: larger;
+    }
+
     .aplicacoes{
         display: flex;
         align-items: center;
@@ -120,24 +129,19 @@
     }
 
     .gif{
-        margin: 0;
+        margin: 8px;
         display: flex;
         justify-content: center;
         width: 300px
     }
 
-    .encriptador{
+    .projeto{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-    
-    .numero-secreto, .henrrique-page{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        border-radius: 12px;
+        border: 2px groove rgba(0, 255, 0, 0.207);
     }
 
     .btn-project{

@@ -35,7 +35,7 @@ body {
 }
 
 .link-header{
-    background-color: #0fee2975;
+    background-color: #0fee2994;
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
     font-weight: 600;
@@ -138,10 +138,12 @@ body {
 }
 
 .principal-image{
-    margin-left: 100px;
+    margin-left: 200px;
     width: 500px;
     border-radius: 15px;
     margin-right: 200px;
+    border-radius: 12px;
+    border: 3px groove rgba(0, 255, 0, 0.521);
 }
 
 /* .my-footer{
