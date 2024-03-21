@@ -35,7 +35,8 @@
 
 .background-image{
     background-image: url('/src/assets/folhas.png');
-    background-size: cover;
+    background-image: no-repeat;
+    background-size: 350px;
 }
 
 .baixar-curriculo{
