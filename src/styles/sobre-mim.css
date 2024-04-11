@@ -40,7 +40,6 @@
 }
 
 .baixar-curriculo{
-    margin: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,10 +48,14 @@
 
 .curriculo{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
     background-color: green;
     color: var(--primary-color);
     border-radius: 30px;
+    text-align: center;
     font-weight: 800;
     font-size: larger;
     font-family: "Montserrat", sans-serif;
@@ -60,14 +63,13 @@
     cursor: pointer;
     width: 200px;
     height: 100px;
-    justify-content: center;
-    align-items: center;
-    margin: 18px;
+    margin: 30px;
+    gap: 10px;
 }
 
 .icon-download{
     width: 25px;
-    margin-right: 7px;
+    margin: 0;
 }
 
 .curriculo:hover{
@@ -131,7 +133,7 @@
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
-@media (max-width:1024px){
+@media (max-width:887px){
 
     .apresentacao-sobre-mim{
         display: flex;
@@ -160,23 +162,6 @@
         word-spacing: 1px;
     }
 
-    .curriculo{
-        margin: 0;
-        display: flex;
-        text-decoration: none;
-        background-color: rgba(4, 255, 0, 0.829);
-        color: var(--primary-color);
-        border-radius: 30px;
-        font-weight: 700;
-        font-family: "Montserrat", sans-serif;
-        border: none;
-        cursor: pointer;
-        width: 200px;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-    }
-
     .conexao{
         display: flex;
         flex-direction: column;
@@ -185,9 +170,21 @@
         font-family: "Montserrat", sans-serif;
     }
 
-    .icon-download{
-        width: 25px;
-        margin-right: 7px;
+    .curriculo p{
+        margin: 0;
+    }
+
+    .ferramentas ul{
+        display: flex;
+        flex-flow: column wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+
+    .ferramentas h1,p{
+        margin: 25px;
     }
 
 }

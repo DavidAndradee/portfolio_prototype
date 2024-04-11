@@ -29,6 +29,7 @@
 }
 
 .my-projects h1{
+    height: 30px;
     font-family: "Orbitron", sans-serif;
     font-size:xx-large ;
     background: linear-gradient(to right, white, #0dff00);
@@ -99,7 +100,7 @@
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
-@media (max-width:1200px){
+@media (max-width:887px){
 
     .projects{
         display: flex;

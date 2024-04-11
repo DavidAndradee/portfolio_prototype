@@ -27,6 +27,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: var(--primary-color);
+    white-space: nowrap;
 }
 
 .my-header img{
@@ -103,10 +104,10 @@ body{
 
 .my-links{
    display: flex;
+   gap: 25px;
 }
 
 .o-link{
-    gap: 10px;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -153,49 +154,35 @@ body{
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
-@media (max-width:1200px){
+/* MoBILE */
+
+@media (max-width:887px){
 
     .my-header{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         margin: 0;
+        white-space: nowrap;
     }
 
     .my-header-menu{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
 
-    .sobre-mim{
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
+    .sobre-mim > *{
+        margin-bottom: 25px;
+    }
+
+    .principal-image{
+        height: 350px;
     }
 
     .porfile{
         display: flex;
         justify-content: center;
         margin: 0;
-    }
-
-    .principal-image{
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: clip;
-    }
-
-    .sobre-mim{
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .sobre-mim > *{
-        margin-bottom: 25px;
     }
 
     .wellcome{
@@ -207,6 +194,7 @@ body{
         margin: 75px;
         margin-top: 200px;
         padding-bottom: 200px;
+        text-align: center;
     }
 
     .apresentacao{
