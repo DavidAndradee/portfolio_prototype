@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 :root{
-    --primary-color: #000;
-    --secundary-color: #00ff00ea;
+    --font-principal: "Montserrat", sans-serif;
+    --primary-color: black;
+    --secundary-color: #7ED957;
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -10,34 +11,41 @@ strong{
     color: var(--secundary-color);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #000;
+body{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-principal);
+    overflow-x: hidden;
 }
+
+/* MEU HEADER DE ACESSO E NAVEGAÇÃO */
 
 .my-header{
     display: flex;
     width: 100%;
-    margin: 12px;
-    padding: 0;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.my-header img{
+    height: 150px;
+    margin: 15px;
 }
 
 .my-header-menu{
     display: flex;
-    gap: 80px;
+    gap: 35px;
     margin: 20px;
     padding: auto;
     justify-content: center;
 }
 
 .link-header{
-    background-color: #0fee2994;
+    background-color: var(--secundary-color);
     font-family: "Montserrat", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-weight: 600;
     color: var(--primary-color);
     text-decoration: none;
@@ -47,90 +55,70 @@ body {
 
 }
 
+/* MEU CONTEUDO PRINCIPAL */
+
+    /* BOAS VINDAS E PRIMEIRO CONTATO */
+
 .sobre-mim{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .wellcome{
     display: flex;
     margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.side-acess {
+    display: block;
+    justify-content: center;
+    color: white;
 }
 
 .apresentacao{
-    display: inline-block;
-    width: 50%;
-    height: 400px;
-    margin-left: 90px;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 85px;
 }
 
-.side-acess{
-    margin-top: 40px;
-}
-
-.boas-vindas{
-    font-size: 2.5rem;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    margin-bottom: 12px;
+.side-acess h1,h2{
+    font-size: 60px;
+    font-family: "Orbitron", sans-serif;
+    line-height: 80px;
 }
 
 .my-resume{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
     margin: 20;
     color: white;
     text-align: justify;
-    line-height: 1.5;
-}
-
-.conexao {
-    display: flex;
-    padding: 12px;
-    color: var(--secundary-color);
-    font-family: "Montserrat", sans-serif;
+    line-height: 35px;
+    margin-top: 25px;
 }
 
 .my-links{
-    padding: 10px;
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px 
+   display: flex;
 }
 
 .o-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
-    border: 5px groove #0c0c0c8f;
     padding: 10px;
-    width: 50%;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
     text-decoration: none;
     color: white;
 }
 
-.o-link:hover{
-    color: var(--primary-color);
-    background-color: var(--secundary-color);
-}
-
 .icon{
-    width: 20px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .icon:hover{
@@ -138,13 +126,13 @@ body {
 }
 
 .principal-image{
-    margin-left: 200px;
-    width: 500px;
-    border-radius: 15px;
-    margin-right: 200px;
-    border-radius: 12px;
-    border: 3px groove rgba(0, 255, 0, 0.521);
+    height: 600px;
+    margin: 35px;
+    border-radius: 25px;
+    border: 5px groove rgba(0, 255, 0, 0.521);
 }
+
+/* MEU FOOTER */
 
 /* .my-footer{
     align-items: center;
@@ -197,7 +185,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 235px
+        overflow: clip;
     }
 
     .sobre-mim{
@@ -217,6 +205,7 @@ body {
         flex-direction: column-reverse;
         max-width: max-content;
         margin: 75px;
+        margin-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -226,23 +215,8 @@ body {
     }
 
     .side-acess{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+       
         margin-top: 40px;
-    }
-
-    .boas-vindas{
-        font-size: 1.5rem;
-        font-family: "Montserrat", sans-serif;
-        color: white;
-        margin-bottom: 12px;
-    }
-
-    .my-resume{
-        width: auto;
-        color: white
     }
 
     .my-links{
