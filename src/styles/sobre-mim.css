@@ -1,46 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --primary-color: black;
-    --secundary-color: #00ff00b9;
+    --font-principal: "Montserrat", sans-serif;
+    --font-secundaria: "Orbitron", sans-serif;
+    --primary-color: #000;
+    --secundary-color: #00ff00ea;
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
 .apresentacao-sobre-mim{
-    margin-top: 300px;
+    margin-top: 150px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 300px;
 }
 
 .my-apresentacao{
-    margin: 0 0 0 90px;
     word-spacing: 2px;
-}
-
-.sobre-eu{
     font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
     color: white;
-    margin-bottom: 12px;
+    margin: 90px;
+}
+
+.sobre-eu{
+    font-family: var(--font-secundaria);
 }
 
 .my-resume-carrer{
     font-size: 1rem;
     font-family: "Montserrat", sans-serif;
-    margin: 20px;
     color: white;
     text-align: justify;
     line-height: 1.5;
     word-wrap: break-word;
-}
-
-.background-image{
-    background-image: url('src/assets/folhas.png');
-    background-image: no-repeat;
-    background-size: 350px;
+    margin-top: 20px;
 }
 
 .baixar-curriculo{
-    margin: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,10 +48,14 @@
 
 .curriculo{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
-    background-color: rgba(4, 255, 0, 0.811);
+    background-color: green;
     color: var(--primary-color);
     border-radius: 30px;
+    text-align: center;
     font-weight: 800;
     font-size: larger;
     font-family: "Montserrat", sans-serif;
@@ -60,13 +63,13 @@
     cursor: pointer;
     width: 200px;
     height: 100px;
-    justify-content: center;
-    align-items: center;
+    margin: 30px;
+    gap: 10px;
 }
 
 .icon-download{
     width: 25px;
-    margin-right: 7px;
+    margin: 0;
 }
 
 .curriculo:hover{
@@ -74,10 +77,63 @@
     background-color: var(--secundary-color);
 }
 
+/* FERRAMENTAS */
+
+.ferramentas{
+    margin-top: 150px;
+    color: white;
+    width: 100%;
+}
+
+.explication{
+    text-align: center;
+    font-family: var(--font-secundaria);
+    line-height: 35px;
+}
+
+.explication h1{
+    font-size: xx-large;
+    background: linear-gradient(to right, white, #0dff00);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.explication p{
+    font-family: var(--font-principal);
+}
+
+.hard-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.hard-skills img{
+    height: 75px;
+}
+
+.hard-skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    gap: 37px;
+    text-align: center;
+    line-height: 25px;
+}
+
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
-@media (max-width:1200px){
+@media (max-width:887px){
 
     .apresentacao-sobre-mim{
         display: flex;
@@ -106,23 +162,6 @@
         word-spacing: 1px;
     }
 
-    .curriculo{
-        margin: 0;
-        display: flex;
-        text-decoration: none;
-        background-color: rgba(4, 255, 0, 0.829);
-        color: var(--primary-color);
-        border-radius: 30px;
-        font-weight: 700;
-        font-family: "Montserrat", sans-serif;
-        border: none;
-        cursor: pointer;
-        width: 200px;
-        height: 100px;
-        justify-content: center;
-        align-items: center;
-    }
-
     .conexao{
         display: flex;
         flex-direction: column;
@@ -131,9 +170,21 @@
         font-family: "Montserrat", sans-serif;
     }
 
-    .icon-download{
-        width: 25px;
-        margin-right: 7px;
+    .curriculo p{
+        margin: 0;
+    }
+
+    .ferramentas ul{
+        display: flex;
+        flex-flow: column wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+
+    .ferramentas h1,p{
+        margin: 25px;
     }
 
 }
