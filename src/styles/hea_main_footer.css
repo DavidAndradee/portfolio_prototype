@@ -28,6 +28,7 @@ body{
     align-items: center;
     background-color: var(--primary-color);
     white-space: nowrap;
+    align-self: flex-start;
 }
 
 .my-header img{
@@ -53,7 +54,6 @@ body{
     align-items: center;
     padding: 10px;
     border-radius: 12px;
-
 }
 
 /* MEU CONTEUDO PRINCIPAL */
@@ -87,7 +87,7 @@ body{
 }
 
 .side-acess h1,h2{
-    font-size: 60px;
+    font-size: 50px;
     font-family: "Orbitron", sans-serif;
     line-height: 80px;
 }
@@ -135,41 +135,69 @@ body{
 
 /* MEU FOOTER */
 
-/* .my-footer{
-    align-items: center;
-    padding: 8px;
-    margin: 12px;
-    background: linear-gradient(#34d80bd7, #e3e7e2ce);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    justify-content: space-between;
-    border-radius: 120px;
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-} */
+    color: white;
+    margin-top: 150px;
+}
+
+.text-footer > *{
+    margin: 25px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.text-footer h1{
+    font-size: 25px;
+}
+
+.text-footer a{
+    color: var(--secundary-color);
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.redes >*{
+    margin: 21px;
+}
+.icon-footer{
+    height: 55px;
+    background-color: white;
+    border-radius: 55px;
+}
+
+.icon-footer:hover{
+    background-color: var(--secundary-color);
+}
+
+.copyright{
+    margin: 25px;
+}
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
 /* MoBILE */
 
-@media (max-width:887px){
+@media (max-width:1044px){
 
     .my-header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        margin: 0;
-        white-space: nowrap;
     }
-
+    
     .my-header img{
         height: 90px;
         margin: 25px;
+    }
+
+    .my-header-menu{
+
     }
 
     .sobre-mim > *{

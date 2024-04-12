@@ -208,6 +208,59 @@
         </section>
 
     </main>
+
+    <footer>
+        <div class="text-footer">
+            <h1>Que tal um combinarmos uma conversa?</h1>
+            <p>Quem sabe não podemos trabalhar juntos e encontrar soluções para o seu ou um novo projeto.</p>
+            <a class="email" href="mailto:davidandrade.sec@gmail.com">davidandrade.sec@gmail.com</a>
+        </div>
+        </div>
+        <ul class="redes">
+            <li>
+                <a href="https://www.instagram.com/davidandraded.a/">
+                    <img class="icon-footer" src="/src/assets/instagram.png" alt="Instagram" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/david-andrade-2253401b1">
+                    <img class="icon-footer" src="/src/assets/linkedIn.png" alt="Linkedin" />
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DavidAndradee?tab=repositories">
+                    <img class="icon-footer" src="/src/assets/github.png" alt="GitHub" />
+                </a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © 2024 DAVID ANDRADE. Direitos reservados ao autor.
+        </p>
+        </div>
+    </footer>
+
+    <script>
+        // Seleciona todos os links do menu
+        const linksMenu = document.querySelectorAll('.link-header');
+
+        // Para cada link, adiciona um evento de clique
+        linksMenu.forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault(); // Evita o comportamento padrão de seguir o link
+
+                // Obtém o ID da seção associada ao link
+                const targetId = link.getAttribute('href').substring(1);
+
+                // Encontra a seção correspondente com o ID
+                const targetSection = document.getElementById(targetId);
+
+                // Rola suavemente até a seção
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
