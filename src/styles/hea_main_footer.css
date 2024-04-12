@@ -35,12 +35,12 @@ body{
     margin: 15px;
 }
 
-.my-header-menu{
+.my-header-menu ul{
     display: flex;
-    gap: 35px;
-    margin: 20px;
-    padding: auto;
     justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px
 }
 
 .link-header{
@@ -167,8 +167,9 @@ body{
         white-space: nowrap;
     }
 
-    .my-header-menu{
-        display: none;
+    .my-header img{
+        height: 90px;
+        margin: 25px;
     }
 
     .sobre-mim > *{
