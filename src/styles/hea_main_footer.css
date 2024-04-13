@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-:root{
+
+:root {
     --font-principal: "Montserrat", sans-serif;
     --primary-color: black;
     --secundary-color: #7ED957;
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
-strong{
+strong {
     color: var(--secundary-color);
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,30 +22,29 @@ body{
 
 /* MEU HEADER DE ACESSO E NAVEGAÇÃO */
 
-.my-header{
+.my-header {
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     background-color: var(--primary-color);
     white-space: nowrap;
-    align-self: flex-start;
 }
 
-.my-header img{
+.my-header img {
     height: 150px;
     margin: 15px;
 }
 
-.my-header-menu ul{
+.my-header-menu ul {
     display: flex;
+    list-style-type: none;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 20px
+    margin: 25px;
 }
 
-.link-header{
+.link-header {
     background-color: var(--secundary-color);
     font-family: "Montserrat", sans-serif;
     font-size: 1.0rem;
@@ -58,16 +58,16 @@ body{
 
 /* MEU CONTEUDO PRINCIPAL */
 
-    /* BOAS VINDAS E PRIMEIRO CONTATO */
+/* BOAS VINDAS E PRIMEIRO CONTATO */
 
-.sobre-mim{
+.sobre-mim {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.wellcome{
+.wellcome {
     display: flex;
     margin-top: 200px;
     margin-bottom: 300px;
@@ -79,20 +79,21 @@ body{
     color: white;
 }
 
-.apresentacao{
+.apresentacao {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 85px;
 }
 
-.side-acess h1,h2{
+.side-acess h1,
+h2 {
     font-size: 50px;
     font-family: "Orbitron", sans-serif;
     line-height: 80px;
 }
 
-.my-resume{
+.my-resume {
     font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
     margin: 20;
@@ -102,18 +103,18 @@ body{
     margin-top: 25px;
 }
 
-.my-links{
-   display: flex;
-   gap: 25px;
+.my-links {
+    display: flex;
+    gap: 25px;
 }
 
-.o-link{
+.o-link {
     padding: 10px;
     text-decoration: none;
     color: white;
 }
 
-.icon{
+.icon {
     width: 30px;
     display: flex;
     justify-content: center;
@@ -122,11 +123,11 @@ body{
     border-radius: 20px;
 }
 
-.icon:hover{
+.icon:hover {
     background-color: var(--secundary-color);
 }
 
-.principal-image{
+.principal-image {
     height: 600px;
     margin: 35px;
     border-radius: 25px;
@@ -135,7 +136,7 @@ body{
 
 /* MEU FOOTER */
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,77 +145,76 @@ footer{
     margin-top: 150px;
 }
 
-.text-footer > *{
+.text-footer>* {
     margin: 25px;
     text-decoration: none;
     line-height: 1.5;
 }
 
-.text-footer h1{
+.text-footer h1 {
     font-size: 25px;
 }
 
-.text-footer a{
+.text-footer a {
     color: var(--secundary-color);
 }
 
-.redes{
+.redes {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.redes >*{
+.redes>* {
     margin: 21px;
 }
-.icon-footer{
+
+.icon-footer {
     height: 55px;
     background-color: white;
     border-radius: 55px;
 }
 
-.icon-footer:hover{
+.icon-footer:hover {
     background-color: var(--secundary-color);
 }
 
-.copyright{
+.copyright {
     margin: 25px;
 }
 
-/*RESPONSIVIDADE -- Utilizando Media Queries*/ 
+/*RESPONSIVIDADE -- Utilizando Media Queries*/
 
 /* MoBILE */
 
-@media (max-width:1044px){
+@media (max-width:1044px) {
 
-    .my-header{
-        flex-direction: column;
-    }
-    
-    .my-header img{
+
+    .my-header img {
         height: 90px;
         margin: 25px;
     }
 
-    .my-header-menu{
-
+    .my-header-menu ul{
+        flex-direction: column;
+        text-align: center;
     }
 
-    .sobre-mim > *{
+    .sobre-mim>* {
         margin-bottom: 25px;
     }
 
-    .principal-image{
+    .principal-image {
         height: 350px;
     }
 
-    .porfile{
+    .porfile {
         display: flex;
         justify-content: center;
         margin: 0;
     }
 
-    .wellcome{
+    .wellcome {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -226,17 +226,17 @@ footer{
         text-align: center;
     }
 
-    .apresentacao{
+    .apresentacao {
         margin: 0;
-        width: 320px;        
+        width: 320px;
     }
 
-    .side-acess{
-       
+    .side-acess {
+
         margin-top: 40px;
     }
 
-    .my-links{
+    .my-links {
         margin: 0;
         margin-top: 25px;
         display: flex;
