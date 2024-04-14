@@ -159,6 +159,18 @@ h2 {
     height: 100%;
 }
 
+.formulario-contato input, textarea{
+    background-color: #7ed95757;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 10px;
+}
+
+.formulario-campos ::placeholder{
+    color: white;
+    font-family: var(--font-principal);
+}
+
 .bnt-msg{
     background-color: var(--secundary-color);
     font-family: "Montserrat", sans-serif;
