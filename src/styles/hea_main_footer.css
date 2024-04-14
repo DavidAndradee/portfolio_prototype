@@ -134,6 +134,44 @@ h2 {
     border: 5px groove rgba(0, 255, 0, 0.521);
 }
 
+/* FORMULARIO DE CONTATO */
+
+.formulario-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-contato{
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.formulario-campos{
+    margin: 15px;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bnt-msg{
+    background-color: var(--secundary-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-decoration: none;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
 /* MEU FOOTER */
 
 footer {
