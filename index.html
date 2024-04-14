@@ -219,10 +219,10 @@
                             <p id="mensagemNome"></p>
                             <input class="entrada" type="text" id="email" placeholder="Email">
                             <p id="mensagemEmail"></p>
-                            <input class="entrada" type="text" id="assunto" placeholder="Assunto">
+                            <input maxlength="30" class="entrada" type="text" id="assunto" placeholder="Assunto">
                             <p id="mensagemAssunto"></p>
-                            <textarea id="mensagem" cols="50" rows="10" placeholder="Me envie uma mensagem"></textarea>
-                            <button type="submit" class="bnt-msg">enviar mensagem</button>
+                            <textarea maxlength="300" id="mensagem" cols="50" rows="10" placeholder="Me envie uma mensagem"></textarea>
+                            <button id="mensagem-text" onclick="validacao()" type="submit" class="bnt-msg">enviar mensagem</button>
                         </form>
                     </div>
                 </div>
