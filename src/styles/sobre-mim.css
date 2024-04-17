@@ -9,7 +9,6 @@
 }
 
 .apresentacao-sobre-mim{
-    margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +24,7 @@
     margin: 90px;
 }
 
-.sobre-eu{
-    font-family: var(--font-secundaria);
-}
+.sobre-eu{font-family: var(--font-secundaria);}
 
 .my-resume-carrer{
     font-size: 1rem;
@@ -98,9 +95,7 @@
     color: transparent;
 }
 
-.explication p{
-    font-family: var(--font-principal);
-}
+.explication p{font-family: var(--font-principal);}
 
 .hard-skills{
     display: flex;
@@ -109,9 +104,7 @@
     list-style: none;
 }
 
-.hard-skills img{
-    height: 75px;
-}
+.hard-skills img{height: 75px;}
 
 .hard-skills ul{
     display: flex;
@@ -170,9 +163,7 @@
         font-family: "Montserrat", sans-serif;
     }
 
-    .curriculo p{
-        margin: 0;
-    }
+    .curriculo p{margin: 0;}
 
     .ferramentas ul{
         display: flex;
@@ -183,8 +174,6 @@
         margin-bottom: 150px;
     }
 
-    .ferramentas h1,p{
-        margin: 25px;
-    }
+    .ferramentas h1,p{margin: 25px;}
 
 }

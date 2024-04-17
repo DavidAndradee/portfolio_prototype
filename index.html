@@ -24,6 +24,7 @@
                 <a class="link-header" href="#quem-sou">Sobre Mim</a>
                 <a class="link-header" href="#tecnologias">Tecnologias</a>
                 <a class="link-header" href="#projetos">Projetos</a>
+                <a class="link-header" href="#form-contact">Contato</a>
             </ul>
         </div>
     </header>
@@ -207,7 +208,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="form-contact">
             <div class="formulario-contato">
                 <div class="text-contato">
                     <h2>Solicite Contato</h2>
@@ -215,14 +216,11 @@
                     <p>Preencha o formulário abaixo e eu entrarei em contato assim que possível</p>
                     <div class="formulario-campos">
                         <form id="form-cnt" class="form-contato">
-                            <input class="entrada" type="text" id="nome" placeholder="Nome e sobrenome">
-                            <p id="mensagemNome"></p>
+                            <input class="entrada" type="text" id="nome" maxlength="50" placeholder="Nome">
                             <input class="entrada" type="text" id="email" placeholder="Email">
-                            <p id="mensagemEmail"></p>
-                            <input maxlength="30" class="entrada" type="text" id="assunto" placeholder="Assunto">
-                            <p id="mensagemAssunto"></p>
-                            <textarea maxlength="300" id="mensagem" cols="50" rows="10" placeholder="Me envie uma mensagem"></textarea>
-                            <button id="mensagem-text" onclick="validacao()" type="submit" class="bnt-msg">enviar mensagem</button>
+                            <input class="entrada" type="text" id="assunto" maxlength="30" placeholder="Assunto">
+                            <textarea class="entrada" id="mensagem" maxlength="300" rows="5" placeholder="Mensagem"></textarea>
+                            <button id="bnt-enviar" class="bnt-msg" type="submit" disabled>enviar mensagem</button>
                         </form>
                     </div>
                 </div>
@@ -284,7 +282,8 @@
             });
         });
     </script>
-    <script src="validação.js"></script>
+    <script src="validacao.js"></script>
 
 </body>
+
 </html>

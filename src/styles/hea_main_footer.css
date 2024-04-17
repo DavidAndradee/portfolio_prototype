@@ -8,9 +8,7 @@
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
-strong {
-    color: var(--secundary-color);
-}
+strong {color: var(--secundary-color);}
 
 body {
     display: flex;
@@ -69,7 +67,6 @@ body {
 
 .wellcome {
     display: flex;
-    margin-top: 200px;
     margin-bottom: 300px;
 }
 
@@ -86,8 +83,7 @@ body {
     margin: 85px;
 }
 
-.side-acess h1,
-h2 {
+.side-acess h1,h2 {
     font-size: 50px;
     font-family: "Orbitron", sans-serif;
     line-height: 80px;
@@ -123,9 +119,7 @@ h2 {
     border-radius: 20px;
 }
 
-.icon:hover {
-    background-color: var(--secundary-color);
-}
+.icon:hover {background-color: var(--secundary-color);}
 
 .principal-image {
     height: 600px;
@@ -140,6 +134,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 55px;
 }
 
 .text-contato{
@@ -149,9 +144,7 @@ h2 {
     line-height: 1.5;
 }
 
-.formulario-campos{
-    margin: 15px;
-}
+.formulario-campos{margin: 15px;}
 
 .form-contato{
     display: flex;
@@ -167,10 +160,12 @@ h2 {
     color: white;
 }
 
-.formulario-campos ::placeholder{
+.formulario-campos::placeholder{
     color: white;
     font-family: var(--font-principal);
 }
+
+.formulario-campos p{font-size: xx-small;}
 
 .bnt-msg{
     background-color: var(--secundary-color);
@@ -183,6 +178,11 @@ h2 {
     padding: 10px;
     border-radius: 15px;
     margin: 15px;
+}
+
+.bnt-msg:disabled{
+    background-color: rgba(128, 128, 128, 0.253);
+    color: rgba(255, 255, 255, 0.253);
 }
 
 /* MEU FOOTER */
@@ -202,13 +202,9 @@ footer {
     line-height: 1.5;
 }
 
-.text-footer h1 {
-    font-size: 25px;
-}
+.text-footer h1 {font-size: 25px;}
 
-.text-footer a {
-    color: var(--secundary-color);
-}
+.text-footer a {color: var(--secundary-color);}
 
 .redes {
     display: flex;
@@ -216,9 +212,7 @@ footer {
     align-content: center;
 }
 
-.redes>* {
-    margin: 21px;
-}
+.redes>* {margin: 21px;}
 
 .icon-footer {
     height: 55px;
@@ -226,13 +220,9 @@ footer {
     border-radius: 55px;
 }
 
-.icon-footer:hover {
-    background-color: var(--secundary-color);
-}
+.icon-footer:hover {background-color: var(--secundary-color);}
 
-.copyright {
-    margin: 25px;
-}
+.copyright {margin: 25px;}
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/
 
@@ -242,7 +232,7 @@ footer {
 
 
     .my-header img {
-        height: 90px;
+        height: 125px;
         margin: 25px;
     }
 
@@ -251,13 +241,9 @@ footer {
         text-align: center;
     }
 
-    .sobre-mim>* {
-        margin-bottom: 25px;
-    }
+    .sobre-mim>* {margin-bottom: 25px;}
 
-    .principal-image {
-        height: 350px;
-    }
+    .principal-image {height: 350px;}
 
     .porfile {
         display: flex;
@@ -272,7 +258,6 @@ footer {
         flex-direction: column-reverse;
         max-width: max-content;
         margin: 75px;
-        margin-top: 200px;
         padding-bottom: 200px;
         text-align: center;
     }
@@ -282,10 +267,7 @@ footer {
         width: 320px;
     }
 
-    .side-acess {
-
-        margin-top: 40px;
-    }
+    .side-acess {margin-top: 40px;}
 
     .my-links {
         margin: 0;
