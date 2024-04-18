@@ -111,7 +111,7 @@ body {
 }
 
 .icon {
-    width: 30px;
+    width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,5 +276,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    .icon{height: 40px;}
 
 }
