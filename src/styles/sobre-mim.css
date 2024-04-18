@@ -108,7 +108,7 @@
 
 .hard-skills ul{
     display: flex;
-    align-items: center;
+    align-items: first baseline;
     justify-content: center;
     margin-top: 45px;
     flex-wrap: wrap;
