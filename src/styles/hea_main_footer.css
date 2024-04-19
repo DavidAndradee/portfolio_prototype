@@ -236,10 +236,7 @@ footer {
         margin: 25px;
     }
 
-    .my-header-menu ul{
-        flex-direction: column;
-        text-align: center;
-    }
+    .my-header-menu ul{ flex-wrap: wrap;}
 
     .sobre-mim>* {margin-bottom: 25px;}
 

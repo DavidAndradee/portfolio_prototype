@@ -95,7 +95,9 @@
     color: transparent;
 }
 
-.explication p{font-family: var(--font-principal);}
+.explication p{
+    font-family: var(--font-principal);
+}
 
 .hard-skills{
     display: flex;
