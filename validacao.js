@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.getElementById("form-cnt").addEventListener("submit", function (event) {
-        alert('⚠️⚠️⚠️⚠️⚠️⚠️⚠️   ALGO DEU ERRADO   ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ Sua solicitação de contato não foi enviada. Entre em contato através do email davidandrade.sec@gmail.com');
+        alert('⚠️ALGO DEU ERRADO⚠️ \nSua solicitação de contato não foi enviada. \nEntre em contato através do email davidandrade.sec@gmail.com');
     });
 });
 
