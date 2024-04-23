@@ -274,6 +274,9 @@ footer {
         align-items: center;
     }
 
-    .icon{height: 40px;}
+    .icon{
+        height: 43px;
+        width: auto;
+    }
 
 }
