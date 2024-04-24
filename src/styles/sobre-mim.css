@@ -12,14 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Orbitron", sans-serif;
     margin-bottom: 300px;
 }
 
 .my-apresentacao{
     word-spacing: 2px;
     font-size: 2.5rem;
-    font-family: "Montserrat", sans-serif;
     color: white;
     margin: 90px;
 }
@@ -28,7 +26,6 @@
 
 .my-resume-carrer{
     font-size: 1rem;
-    font-family: "Montserrat", sans-serif;
     color: white;
     text-align: justify;
     line-height: 1.5;
