@@ -40,6 +40,7 @@
 
 .projeto{
     display: flex;
+    flex-direction: column;
     margin: 35px;
     align-items: center;
     justify-content: center;
@@ -66,7 +67,7 @@
 }
 
 .descricao p{
-    width: 350px;
+    width: 500px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -74,6 +75,8 @@
     word-spacing: normal;
     margin: 10px;
 }
+
+.botoes{ display: flex;}
 
 .btn-project{
     display: flex;
