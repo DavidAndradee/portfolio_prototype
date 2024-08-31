@@ -1,0 +1,82 @@
+[
+    {
+        "image": "src/assets/image-js.png",
+        "name": "Java Script",
+        "description": "Nescessário para incorporar interatividade às páginas da web, controlar o DOM, responder a eventos e efetuar verificações em formulários."
+    },
+    {
+        "image": "src/assets/image-git.png",
+        "name": "Git",
+        "description": "Experiência com sistemas de controle de versão, como Git, e familiaridade com conceitos como commits, branches e pull requests."
+    },
+    {
+        "image": "src/assets/Cypress.png",
+        "name": "Cypress.io",
+        "description":"Ferramenta de automação de testes frontend para testes de regressão em aplicações web. Possibilitando tambem testar requisições em API's."
+    },
+    {
+        "image": "src/assets/docker.png",
+        "name": "Docker",
+        "description": "Com o docker-compose me possibilita orquestrar nosso ambiente de testes, ou seja, ele acaba centralizando o que me possibilita ter o controle local das aplicações que serão testadas."
+    },
+    {
+        "image": "src/assets/postman.png",
+        "name": "Postman",
+        "description": "Aplicação na qual me permite testar APIs web.Construindo testes automáticos com JavaScript integrado e executa-los com o collection runner, além disso me possibilitando documentar cada teste e resultado."
+    },
+    {
+        "image": "src/assets/insomnia.png",
+        "name": "Insomnia",
+        "description": "Cliente API que suporta múltiplos protocolos, incluindo REST. Ele permite que os desenvolvedores criem, organizem, compartilhem e executem requisições sem precisar alternar entre diferentes aplicativos."
+    },
+    {
+        "image": "src/assets/testlink-logo.png",
+        "name": "TestLink",
+        "description": "Aplicação web desenvolvida para teste de software que visa facilitar testes e possibilita o gerenciamente de casos de testes e registro de resultados."
+    },
+    {
+        "image": "src/assets/cucumber-logo.png",
+        "name": "Cucumber",
+        "description": "Ferramenta que interpreta e executa as especificações escritas em Gherkin. Onde o Gherkin ajuda a especificar os comportamentos do software e o Cucumber os testa."
+    },
+    {
+        "image": "src/assets/gitlab.png",
+        "name": "GitLab",
+        "description": "Se trata de um gerenciador de repositório de software baseado em git, com suporte a Wiki,gerenciamento de tarefas e CI/CD. GitLab permite o armazenemento do código em seus próprios servidores, ao invés de servidores de terceiros."
+    },
+    {
+        "image": "src/assets/image-node.png",
+        "name": "Node js",
+        "description": "Experiencia com um ambiente de tempo de execução de código aberto que permite executar JavaScript no servidor, permitindo realizar testes em aplicações web com alto desempenho."
+    },
+    {
+        "image": "src/assets/img-html5.png",
+        "name": "HTML 5",
+        "description": "Possibilita desenvolver layouts adaptáveis e de fácil acesso utilizando HTML semântico para organizar o conteúdo da página. Conhecimento no qual me capacita na acretividade e qualidade na criação dos casos de testes."
+    },
+    {
+        "image": "src/assets/image-css3.png",
+        "name": "CSS 3",
+        "description": "Framework que estiliza os elementos HTML por meio do CSS, especificando cores, tipos de letra, espaçamentos e disposição para gerar uma apresentação visual atrativa e uniforme."
+    },
+    {
+        "image": "src/assets/rabbitMQ.png",
+        "name": "RabbitMQ",
+        "description": "RabbitMQ é um broker de mensagens e streaming, amplamente utilizado para comunicação entre sistemas. Ele pode ser facilmente implantado em ambientes de nuvem, servidores locais e máquinas locais."
+    },
+    {
+        "image": "src/assets/PostgreSQL-Logo.png",
+        "name": "PostgreSQL",
+        "description": "Ferramenta de gerenciamento de banco de dados relacional de código aberto e altamente avançado. Organiza os dados em tabelas com relacionamentos entre elas."
+    },
+    {
+        "image": "src/assets/mySQL.png",
+        "name": "MySQL",
+        "description": "Banco de dados de código aberto mais conhecido no mundo. O MySQL oferece recursos como escalabilidade e alta disponibilidade, atendendo as demandas de serviços web e em nuvem."
+    },
+    {
+        "image": "src/assets/mongoDB.png",
+        "name": "MongoDB",
+        "description": "MongoDB é um sistema de gerenciamento de banco de dados não relacional (NoSQL), que utiliza documentos no formato JSON para armazenar dados. Muito utilizado devido à sua flexibilidade e escalabilidade."
+    }
+]
