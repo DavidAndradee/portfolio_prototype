@@ -91,6 +91,7 @@
     background: linear-gradient(to right, white, #0dff00);
     -webkit-background-clip: text;
     color: transparent;
+    margin: 20px;
 }
 
 .explication p{
@@ -125,7 +126,6 @@
     line-height: 25px;
     flex-basis: 20%;
 }
-
 
 /*RESPONSIVIDADE -- Utilizando Media Queries*/ 
 
