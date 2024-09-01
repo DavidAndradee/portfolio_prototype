@@ -2,10 +2,7 @@
 fetch('tools.json')
     .then(response => response.json())
     .then(data => {
-        // Seleciona o elemento onde os dados serão exibidos
         const projetosContainer = document.getElementById('tools');
-
-        // Itera sobre cada projeto e cria um elemento HTML para exibi-lo
         data.forEach(tools => {
             const projetoElement = document.createElement('li');
             projetoElement.innerHTML = `

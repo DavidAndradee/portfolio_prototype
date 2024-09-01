@@ -22,6 +22,11 @@
     margin: 90px;
 }
 
+.my-apresentacao img {
+    height: 75px;
+    margin: 15px;
+}
+
 .sobre-eu{font-family: var(--font-secundaria);}
 
 .my-resume-carrer{
