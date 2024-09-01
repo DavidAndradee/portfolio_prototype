@@ -1,56 +1,79 @@
 [
     {
+        "gif":"src/assets/devOpsQA.gif",
+        "description":"Visando ampliar meus conhecimetos desbravei o mundo de DevOps, construir pipelines de testes contínuos em Cypress no Github Actions com o objetivo de tornar os testes de regressão mais eficientes, produtivos e organizados. Controlar o fluxo de execução de testes com relatórios, screenshots e métricas.",
+        "link":"https://github.com/DavidAndradee/cypress-actions",
+        "published": false,
+        "site":""
+    },
+    {
+        "gif":"src/assets/cy-cucumber.png",
+        "description":"Com a completude do Cypress, ele possibilita utilizar da linguagem Gherkin, cucumber para aplicar o BDD utilizando do melhor framework para executar as specs de testes",
+        "link":"https://github.com/DavidAndradee/cypress-cucumber",
+        "published": false,
+        "site":""
+    },
+    {
         "gif":"src/assets/cucumber-gherkin.gif",
         "description":"Projeto no qual me aprofundei nos conhecimentos de Behavior-Driven Development, BDD utilizando da linguagem Gherkin e Cucumber, somado com Ruby unido ao Capybara que utiliza da Selenium WebDrive por debaixo dos panos para executar os cenários de testes.",
         "link":"https://github.com/DavidAndradee/BDD-cucumber-gherkin",
+        "published": false,
         "site":""
     },
     {
         "gif":"src/assets/api_e_gui.gif",
         "description":"Dando continuidade aos aprendizados, após uns anos de atuação e experiência no mercado de qualidade e testes, finalizei o curso de automação de testes em Cypress no nivél intermediário, implantando meus conhecimentos em Application Programming Interface e Graphical User Interface dentro do Cypress, otimizandos testes funcionais e automáticos em API's.",
         "link":"https://github.com/DavidAndradee/cypress-intermediario",
+        "published": false,
         "site":""
     },
     {
         "gif":"src/assets/testBasic9.5.1.gif",
         "description":"Projeto de estudos, criado para aprendizado com o intuito de mergulhar na automação de testes. Curso da Talking About Testing na Udemy, referente a automação de testes com Cypress.Aprendendo a criar e executar casos de testes automatizados. Note que a versão do cypress é antiga se tratando da <strong>9.5.1</strong>.",
         "link":"https://github.com/DavidAndradee/cypress-basico-v2",
+        "published": false,
         "site":""
     },
     {
         "gif":"src/assets/my-organa.gif",
         "description":"Aplicação pessoal desenvolvida utilizando React, JSX e CSS. Se trata de um organizador de conteúdos, possibilitando que crie sua lista de conteúdos os separando e os organizando por categorias.",
         "link":"https://github.com/DavidAndradee/organo",
+        "published": true,
         "site":"https://organo-nu-sable.vercel.app/"
     },
     {
         "gif":"src/assets/geekd-commerce.gif",
         "description":"Aplicação que simula um commerce de produtos nerd geeks, na visão de um administrador ou dono de loja para adicionar e exlcuir produtos. Utilizando JavaScript puro para lógica de integração e consumo de API",
         "link":"https://github.com/DavidAndradee/my-commerce-nerd",
+        "published": true,
         "site":"https://davidandradee.github.io/my-commerce-nerd/"
     },
     {
         "gif":"src/assets/maisUmaApp.gif",
         "description":"Se trata de uma aplicação simples refrente a um encriptador de texto, no qual ao inserir um texto uma lógica para encriptar caracteres, ocultando o texto original, possibilitando ousuário copiar o texto oculto e desincriptografa-lo para identificar a mensagem.",
         "link":"https://github.com/DavidAndradee/Andra-Encryptor",
+        "published": true,
         "site":"https://davidandradee.github.io/Andra-Encryptor/"
     },
     {
         "gif":"src/assets/GAMESECRET.gif",
         "description":"Esta aplicação se trata de um pequeno jogo, simples e fácil, referente a descoberta de um número secreto. O sistema aguardará um número e ele o verifica para saber se é o numero da sorte, isso com ajuda de dicas de proximidade referente ao número informado ao número secreto, com auxilio de assesibilidade com voice.",
         "link":"https://github.com/DavidAndradee/Secret_Number_Game",
+        "published": true,
         "site":"https://secret-number-game-lyart.vercel.app/"
     },
     {
         "gif":"src/assets/hL.gif",
         "description":"Se trata de um aplicação simples refrente a uma página para um amigo pessoal que tem sua carreira profissional como cantor, portanto é uma página para divulgação e capitação de leeads.",
         "link":"https://github.com/DavidAndradee/page_of_henrrique",
+        "published": true,
         "site":"https://davidandradee.github.io/page_of_henrrique/"
     },
     {
         "gif":"src/assets/copy_spotfy.png",
         "description":"Se trata de um aplicação onde toda a interface é inspirada na página web do próprio Spotify. Um projeto no qual trabalhei para aprender alguns conceitos e estrategias para melhor organizar os componentes HTML. Foi com a imersão para criação desta aplicação que retomei o encanto com desencolvimento e lógica de programação, aperfeiçoando a cada dia minhas técnicas e conhecimentos",
         "link":"https://github.com/DavidAndradee/Spotfy_copy",
+        "published": false,
         "site":""
     }
 ]

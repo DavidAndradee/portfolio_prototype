@@ -28,21 +28,35 @@ fetch("apps.json")
     .then(response => response.json())
     .then(data => {
         const projetosContainer = document.getElementById('apps');
-
         data.forEach(apps => {
             const projetoElement = document.createElement('div');
-            projetoElement.innerHTML = `
-                <div class="projeto">
-                    <img class="gif" src="${apps.gif}">
-                    <div class="descricao">
-                        <p>${apps.description}</p>
-                        <div class="botoes">
-                            <a class="btn-project" href="${apps.link}">Acessar código</a>
-                            <a class="btn-project" href="${apps.site}">Acessar site</a>
+            if (apps.published === true) {
+                
+                projetoElement.innerHTML = `
+                    <div class="projeto">
+                        <img class="gif" src="${apps.gif}">
+                        <div class="descricao">
+                            <p>${apps.description}</p>
+                            <div class="botoes">
+                                <a class="btn-project" href="${apps.link}">Acessar código</a>
+                                <a class="btn-project" href="${apps.site}">Acessar site</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                    `;
+                        `;
+            } else {
+                projetoElement.innerHTML = `
+                    <div class="projeto">
+                        <img class="gif" src="${apps.gif}">
+                        <div class="descricao">
+                            <p>${apps.description}</p>
+                            <div class="botoes">
+                                <a class="btn-project" href="${apps.link}">Acessar código</a>
+                            </div>
+                        </div>
+                    </div>
+                        `;
+            }
             projetosContainer.appendChild(projetoElement);
         });
     })
