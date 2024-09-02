@@ -7,7 +7,7 @@
         "site":""
     },
     {
-        "gif":"src/assets/cy-cucumber.png",
+        "gif":"src/assets/cy-cucumber.gif",
         "description":"Com a completude do Cypress, ele possibilita utilizar da linguagem Gherkin, cucumber para aplicar o BDD utilizando do melhor framework para executar as specs de testes",
         "link":"https://github.com/DavidAndradee/cypress-cucumber",
         "published": false,
@@ -22,7 +22,7 @@
     },
     {
         "gif":"src/assets/api_e_gui.gif",
-        "description":"Dando continuidade aos aprendizados, após uns anos de atuação e experiência no mercado de qualidade e testes, finalizei o curso de automação de testes em Cypress no nivél intermediário, implantando meus conhecimentos em Application Programming Interface e Graphical User Interface dentro do Cypress, otimizandos testes funcionais e automáticos em API's.",
+        "description":"Dando continuidade aos aprendizados, após uns anos de atuação e experiência no mercado de qualidade e testes, finalizei o curso de automação de testes em Cypress no nivel intermediário, implantando meus conhecimentos em Application Programming Interface e Graphical User Interface dentro do Cypress, otimizandos testes funcionais e automáticos em API's.",
         "link":"https://github.com/DavidAndradee/cypress-intermediario",
         "published": false,
         "site":""

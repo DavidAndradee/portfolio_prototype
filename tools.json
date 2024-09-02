@@ -22,7 +22,7 @@
     {
         "image": "src/assets/postman.png",
         "name": "Postman",
-        "description": "Aplicação na qual me permite testar APIs web.Construindo testes automáticos com JavaScript integrado e executa-los com o collection runner, além disso me possibilitando documentar cada teste e resultado."
+        "description": "Aplicação na qual me permite testar APIs. Construindo testes automáticos com JavaScript integrado e executa-los com o collection runner, além disso me possibilitando documentar cada teste e resultado."
     },
     {
         "image": "src/assets/insomnia.png",
