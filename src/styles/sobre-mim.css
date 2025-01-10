@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --font-principal: "Montserrat", sans-serif;
     --font-secundaria: "Orbitron", sans-serif;
     --primary-color: #000;
@@ -8,14 +8,14 @@
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
-.apresentacao-sobre-mim{
+.apresentacao-sobre-mim {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 200px;
 }
 
-.my-apresentacao{
+.my-apresentacao {
     word-spacing: 2px;
     font-size: 2.5rem;
     color: white;
@@ -27,9 +27,11 @@
     margin: 15px;
 }
 
-.sobre-eu{font-family: var(--font-secundaria);}
+.sobre-eu {
+    font-family: var(--font-secundaria);
+}
 
-.my-resume-carrer{
+.my-resume-carrer {
     font-size: 1rem;
     color: white;
     text-align: justify;
@@ -38,7 +40,7 @@
     margin-top: 20px;
 }
 
-.baixar-curriculo{
+.baixar-curriculo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +48,7 @@
     color: white;
 }
 
-.curriculo{
+.curriculo {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -67,31 +69,31 @@
     gap: 10px;
 }
 
-.icon-download{
+.icon-download {
     width: 25px;
     margin: 0;
 }
 
-.curriculo:hover{
+.curriculo:hover {
     color: var(--primary-color);
     background-color: var(--secundary-color);
 }
 
 /* FERRAMENTAS */
 
-.ferramentas{
+.ferramentas {
     margin-top: 150px;
     color: white;
     width: 100%;
 }
 
-.explication{
+.explication {
     text-align: center;
     font-family: var(--font-secundaria);
     line-height: 35px;
 }
 
-.explication h1{
+.explication h1 {
     font-size: xx-large;
     background: linear-gradient(to right, white, #0dff00);
     -webkit-background-clip: text;
@@ -99,29 +101,36 @@
     margin: 20px;
 }
 
-.explication p{
+.explication p {
     font-family: var(--font-principal);
+    background-color: rgba(0, 128, 0, 0.462);
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000;
 }
 
-.hard-skills{
+.hard-skills {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
 }
 
-.hard-skills img{height: 75px;}
+.hard-skills img {
+    height: 75px;
+}
 
-.tool{
+.tool {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 10px; 
-    list-style: none; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    list-style: none;
     padding: 0;
     margin: 35;
 }
 
-.skill{
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,11 +141,11 @@
     flex-basis: 20%;
 }
 
-/*RESPONSIVIDADE -- Utilizando Media Queries*/ 
+/*RESPONSIVIDADE -- Utilizando Media Queries*/
 
-@media (max-width:887px){
+@media (max-width:887px) {
 
-    .apresentacao-sobre-mim{
+    .apresentacao-sobre-mim {
         display: flex;
         margin-top: 55px;
         margin-bottom: 90px;
@@ -145,7 +154,7 @@
         align-items: center;
     }
 
-    .my-apresentacao{
+    .my-apresentacao {
         margin: 0;
         display: flex;
         width: 320px;
@@ -154,30 +163,32 @@
         align-items: center;
     }
 
-    .sobre-eu{
+    .sobre-eu {
         display: flex;
         justify-content: center;
         margin: 0;
         margin-top: 77px;
-        width: 320px; 
+        width: 320px;
     }
 
-    .my-resume-carrer{
+    .my-resume-carrer {
         margin: 50px 0 0 0;
         word-spacing: 1px;
         text-align: center;
     }
 
-    .conexao{
+    .conexao {
         display: flex;
         flex-direction: column;
         margin-top: 5px;
         font-family: "Montserrat", sans-serif;
     }
 
-    .curriculo p{margin: 0;}
+    .curriculo p {
+        margin: 0;
+    }
 
-    .tool{
+    .tool {
         display: flex;
         flex-flow: column wrap;
         flex-direction: column;
@@ -186,6 +197,9 @@
         margin-bottom: 150px;
     }
 
-    .ferramentas h1,p{margin: 25px;}
+    .ferramentas h1,
+    p {
+        margin: 25px;
+    }
 
 }

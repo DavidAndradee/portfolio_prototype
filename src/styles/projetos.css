@@ -36,6 +36,15 @@
     font-weight: bold;
 }
 
+.my-projects p {
+    font-family: var(--font-principal);
+    background-color: rgba(0, 128, 0, 0.462);
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
 .aplicacoes{align-items: center;}
 
 .projeto{
