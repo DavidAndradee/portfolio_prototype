@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-:root{
+:root {
     --font-principal: "Montserrat", sans-serif;
     --primary-color: #000;
     --secundary-color: #00ff00ea;
     --terciary-color: rgba(255, 255, 255, 0.5);
 }
 
-.projects{
+.projects {
     margin-top: 300px;
     display: column;
 }
 
-.my-projects{
+.my-projects {
     display: flex;
     font-family: var(--font-principal);
     color: white;
@@ -21,15 +21,17 @@
     align-items: center;
     flex-direction: column;
     font-size: larger;
-    margin: 55px;    
+    margin: 55px;
 }
 
-.my-projects > *{margin-bottom: 20px;}
+.my-projects>* {
+    margin-bottom: 20px;
+}
 
-.my-projects h1{
+.my-projects h1 {
     height: 35px;
     font-family: "Orbitron", sans-serif;
-    font-size:xx-large ;
+    font-size: xx-large;
     background: linear-gradient(to right, white, #0dff00);
     -webkit-background-clip: text;
     color: transparent;
@@ -45,9 +47,11 @@
     border: 1px solid #000;
 }
 
-.aplicacoes{align-items: center;}
+.aplicacoes {
+    align-items: center;
+}
 
-.projeto{
+.projeto {
     display: flex;
     flex-direction: column;
     margin: 35px;
@@ -58,14 +62,14 @@
     border: 1.5px groove rgba(0, 255, 0, 0.37);
 }
 
-.gif{
+.gif {
     margin: 35px;
     width: 1000px;
     border-radius: 12px;
     border: 5px groove rgba(0, 255, 0, 0.521);
 }
 
-.descricao{
+.descricao {
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -75,7 +79,7 @@
     font-family: var(--font-principal);
 }
 
-.descricao p{
+.descricao p {
     width: 500px;
     text-align: center;
     justify-content: center;
@@ -85,9 +89,11 @@
     margin: 10px;
 }
 
-.botoes{ display: flex;}
+.botoes {
+    display: flex;
+}
 
-.btn-project{
+.btn-project {
     display: flex;
     padding: 10px;
     width: 250px;
@@ -101,16 +107,16 @@
     border: 3px groove #0c0c0c8f;
 }
 
-.btn-project:hover{
+.btn-project:hover {
     background-color: #ffffff35;
     color: white;
 }
 
-/*RESPONSIVIDADE -- Utilizando Media Queries*/ 
+/*RESPONSIVIDADE -- Utilizando Media Queries*/
 
-@media (max-width:887px){
+@media (max-width:887px) {
 
-    .projects{
+    .projects {
         display: flex;
         margin: 0;
         justify-content: center;
@@ -118,16 +124,21 @@
         flex-direction: column;
     }
 
-    .my-projects{
+    .my-projects {
         margin: 25px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        font-family: var(--font-secundaria);
+        line-height: 35px;
     }
 
-    .my-projects h1{font-size: larger;}
+    .my-projects h1 {
+        font-size: larger;
+    }
 
-    .aplicacoes{
+    .aplicacoes {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -135,23 +146,28 @@
         height: 100%;
     }
 
-    .gif{
+    .gif {
         margin: 8px;
         display: flex;
         justify-content: center;
         width: 88%;
     }
 
-    .btn-project{width: 205px;}
+    .btn-project {
+        width: 205px;
+    }
 
-    .descricao p {width: 85%;}
+    .descricao p {
+        width: 85%;
+    }
 
-    .botoes{
+    .botoes {
         margin: 35px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         color: var(--primary-color);
     }
-}
 
+
+}
